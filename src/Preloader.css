@@ -1,0 +1,25 @@
+.preloader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4f045e;
+  transition: opacity 1s ease-in-out;
+}
+
+.preloader h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.preloader p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.fadeOut {
+  opacity: 0;
+}

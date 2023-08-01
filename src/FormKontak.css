@@ -1,0 +1,63 @@
+/* FormKontak.css */
+
+.form-kontak-container {
+  max-width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #9aa5ed;
+}
+h2{
+  font-size: 52px;
+  line-height: 54px;
+  font-family: 'Roboto Mono', monospace;
+  color:#d60265;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #8902dc;
+  border-radius: 30px;
+  font-size: 14px;
+  box-shadow: #5c0f94;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #440789;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.submit-button {
+  /* properti lain yang telah ada */
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #5c0f94;
+}
+
+/* Style tambahan untuk responsif (opsional) */
+
+
